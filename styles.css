@@ -1,0 +1,215 @@
+* {
+	box-sizing: border-box;
+  padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:blue;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-style: 'vintage'Serif;
+    font-variant: normal;
+    line-height: 26.4px;
+    color:white;
+    background-image: url("smarts-cities.jpg");
+    
+}
+
+h1 {
+  font-size: 15px;
+  margin-top: 100px;
+  margin-left: 1120px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+text-align: center;
+padding-top: 40px;
+text-decoration: unset;
+font-family: 'Times New Roman', Times, serif;
+line-height: 1px;
+margin-right: 40px;
+}
+
+h2{
+  margin-bottom: 20px;
+}
+
+p{
+padding-bottom: 20px;
+height: 100px;
+padding-left:120px; 
+margin-left: -20px; 
+margin-top: -5px;
+padding-top: 120px;
+}
+
+h5 {
+	color: var(--medium-gray);
+	text-transform: uppercase;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+	background: none;
+	border: none;
+	font-size: 0.75rem;
+}
+
+svg {
+    display: inline-block;
+    color:white;
+    margin-top: -14px;
+}
+
+.mx-auto {
+	margin: auto;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.w-100 {
+	width: 100%;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.container-full {
+	max-width: 1200px;
+}
+
+.position-relative {
+	position: relative;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.row {
+	flex-direction: row;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.navbar {
+	font-size: 1rem;
+    font-weight: 700;
+    
+    
+}
+
+.navbar-logo {
+	padding: 0.5rem 0;
+}
+
+.nav-link {
+    font-size: 14px;
+    margin-right: 3.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-link:hover {
+	animation: hoverEffect 300ms ease-in-out;
+    animation-fill-mode: forwards;
+    
+}
+
+.nav-icon {
+	padding: 0.5rem 1rem;
+	padding-right: 0;
+}
+
+.search-btn {
+	background: none;
+	border: none;
+}
+
+.search-input {
+	background: none;
+	border: none;
+	
+}
+
+::placeholder {
+	color: white;
+	font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration:underline;
+    color: white;
+    
+    
+}
+.bottom-navbar {
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  .bottom-navbar {
+    overflow: hidden;
+    position: fixed;
+    width: 85%;
+    color:black;
+    background-color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+    bottom: -20px;
+    text-align: right;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+   
+  }
+  
+  
+  .bottom-navbar a {
+    float: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    padding: 14px 16px;
+  }
+  
+  .bottom-navbar a:hover {
+    color: black;
+  }
+  
+  .bottom-navbar a.active {
+    color: black;
+  }
+  
+

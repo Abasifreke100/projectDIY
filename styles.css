@@ -45,19 +45,13 @@ padding-left:120px;
 margin-left: -20px; 
 margin-top: -5px;
 padding-top: 120px;
-}
-
-h5 {
-	color: var(--medium-gray);
-	text-transform: uppercase;
-}
 
 ul {
-	list-style: none;
+list-style: none;
 }
 
 a {
-	text-decoration: none;
+text-decoration: none;
 }
 
 button {

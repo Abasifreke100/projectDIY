@@ -15,6 +15,7 @@ body {
     line-height: 26.4px;
     color:white;
     background-image: url("smarts-cities.jpg");
+    background-repeat: none;
     
 }
 
@@ -22,14 +23,12 @@ h1 {
   font-size: 15px;
   margin-top: 100px;
   margin-left: 1120px;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 h3{
 text-align: center;
 padding-top: 40px;
 text-decoration: unset;
-font-family: 'Times New Roman', Times, serif;
 line-height: 1px;
 margin-right: 40px;
 }
@@ -45,13 +44,14 @@ padding-left:120px;
 margin-left: -20px; 
 margin-top: -5px;
 padding-top: 120px;
+}
 
 ul {
-list-style: none;
+	list-style: none;
 }
 
 a {
-text-decoration: none;
+	text-decoration: none;
 }
 
 button {
